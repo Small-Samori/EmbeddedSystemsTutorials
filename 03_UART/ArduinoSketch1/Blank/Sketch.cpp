@@ -20,7 +20,7 @@ void setup() {
 }
 
 char in[4];
-char k, u;
+char k, u = 0;
 
 void loop() {
 	// Wait for serial input from device
@@ -29,7 +29,9 @@ void loop() {
 	u = Serial.read();
 	// Compare input data if it is enter key pressed
 	if(u != '\r') {
-		in[k++] = Serial.read();
+		in[k] = u;
+		Serial.print(in[k]);
+		k++;
 	}
 
 	// Compare buffer elements to check if is ON
@@ -38,6 +40,8 @@ void loop() {
 		PORTA |= (1 << PORTA0);
 		// Clean buffer
 		memset(in, 0x00, sizeof(in));
+		k = 0;
+		Serial.print(">");
 	}
 	// Compare buffer elements to check if is OFF
 	else if(in[0] == 'O' && in[1] == 'F' && in[2] == 'F') {
@@ -45,5 +49,7 @@ void loop() {
 		PORTA &= ~(1 << PORTA0);
 		// Clear buffer
 		memset(in, 0x00, sizeof(in));
+		k = 0;
+		Serial.print(">");
 	}
 }
