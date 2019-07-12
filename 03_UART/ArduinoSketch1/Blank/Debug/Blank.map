@@ -1,15 +1,71 @@
 Archive member included to satisfy reference by file (symbol)
 
-C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                              Sketch.o (_ZN14HardwareSerial9availableEv)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                              Sketch.o (Serial)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o (main)
-C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o) (init)
-C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
-                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o) (yield)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o) (init)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o) (yield)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__subsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__ltsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__divsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__fixunssfsi)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__floatunsisf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o) (__fp_cmp)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o) (__fp_round)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_split3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(gesf2.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__gtsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__mulsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__mulsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(unordsf2.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o (exit)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                              Sketch.o (__do_copy_data)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
-                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o) (__do_clear_bss)
+                              Sketch.o (__do_clear_bss)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o) (__do_global_ctors)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o) (__tablejump2__)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(abort.o)
+                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o) (abort)
 
 Discarded input sections
 
@@ -18,33 +74,220 @@ Discarded input sections
  .text          0x00000000        0x0 Sketch.o
  .data          0x00000000        0x0 Sketch.o
  .bss           0x00000000        0x0 Sketch.o
- .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .text.atexit   0x00000000        0x6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial3endEv
+                0x00000000       0x44 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text._ZN14HardwareSerial17availableForWriteEv
+                0x00000000       0x1e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .text.atexit   0x00000000        0x6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .text._Z8setupUSBv
-                0x00000000        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .text.millis   0x00000000       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .text.micros   0x00000000       0x4a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .text.delay    0x00000000       0x78 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000000        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .group         0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .group         0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x00000000       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK6String
+                0x00000000       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEc
+                0x00000000        0xe C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printERK9Printable
+                0x00000000       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK6String
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEc
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnERK9Printable
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print11printNumberEmh
+                0x00000000       0x92 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEmi
+                0x00000000       0x1a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEhi
+                0x00000000        0xe C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEhi
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEji
+                0x00000000        0xc C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEji
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEmi
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEli
+                0x00000000       0x90 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEii
+                0x00000000        0xe C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEii
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEli
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1b6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print5printEdi
+                0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .rodata._ZTV5Print
+                0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text.millis   0x00000000       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text.micros   0x00000000       0x4a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text.delay    0x00000000       0x78 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .text.delayMicroseconds
-                0x00000000       0x16 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .text.__empty  0x00000000        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x00000000       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00000000       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00000000       0x16 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text.__cxa_deleted_virtual
+                0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x00000000       0x76 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00000000       0x6d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
  .debug_aranges
-                0x00000000       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_ranges  0x00000000       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x00000000       0x41 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_str     0x00000000      0x164 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .comment       0x00000000       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
- .debug_frame   0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00000000       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00000000       0xa9 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00000000      0x1c3 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .comment       0x00000000       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00000000       0x34 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(abi.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .text.__empty  0x00000000        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00000000       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00000000       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000000       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00000000       0x41 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00000000      0x164 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .comment       0x00000000       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x00000000       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x00000000       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x00000000       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_cmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x00000000        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x00000000        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x00000000       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x00000000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x00000000       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(unordsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(unordsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(unordsf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
@@ -61,6 +304,22 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
@@ -77,6 +336,42 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(abort.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(abort.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(abort.o)
+ .text.avr-libc
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(abort.o)
 
 Memory Configuration
 
@@ -97,7 +392,7 @@ LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/
 LOAD Sketch.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
-LOAD C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a
+LOAD C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a
 END GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
@@ -205,7 +500,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0x1f4
+.text           0x00000000      0x744
  *(.vectors)
  .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
                 0x00000000                __vector_default
@@ -228,96 +523,154 @@ END GROUP
  *(.lowtext*)
                 0x0000008c                __ctors_start = .
  *(.ctors)
-                0x0000008c                __ctors_end = .
-                0x0000008c                __dtors_start = .
+ .ctors         0x0000008c        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000008e                __ctors_end = .
+                0x0000008e                __dtors_start = .
  *(.dtors)
-                0x0000008c                __dtors_end = .
+                0x0000008e                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x0000008c        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
-                0x0000008c                __init
+ .init0         0x0000008e        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+                0x0000008e                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000008c        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+ .init2         0x0000008e        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000098       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
-                0x00000098                __do_clear_bss
+ .init4         0x0000009a       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                0x0000009a                __do_copy_data
+ .init4         0x000000b4       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                0x000000b4                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
+ .init6         0x000000c4       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+                0x000000c4                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000a8        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+ .init9         0x000000d8        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
  *(.init9)
  *(.text)
- .text          0x000000ac        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
-                0x000000ac                __vector_22
-                0x000000ac                __vector_28
-                0x000000ac                __vector_1
-                0x000000ac                __vector_32
-                0x000000ac                __vector_34
-                0x000000ac                __vector_24
-                0x000000ac                __vector_12
-                0x000000ac                __bad_interrupt
-                0x000000ac                __vector_6
-                0x000000ac                __vector_31
-                0x000000ac                __vector_3
-                0x000000ac                __vector_23
-                0x000000ac                __vector_30
-                0x000000ac                __vector_25
-                0x000000ac                __vector_11
-                0x000000ac                __vector_13
-                0x000000ac                __vector_17
-                0x000000ac                __vector_19
-                0x000000ac                __vector_7
-                0x000000ac                __vector_27
-                0x000000ac                __vector_5
-                0x000000ac                __vector_33
-                0x000000ac                __vector_4
-                0x000000ac                __vector_9
-                0x000000ac                __vector_2
-                0x000000ac                __vector_21
-                0x000000ac                __vector_15
-                0x000000ac                __vector_29
-                0x000000ac                __vector_8
-                0x000000ac                __vector_26
-                0x000000ac                __vector_14
-                0x000000ac                __vector_10
-                0x000000ac                __vector_16
-                0x000000ac                __vector_20
-                0x000000ae                . = ALIGN (0x2)
+ .text          0x000000dc        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+                0x000000dc                __vector_22
+                0x000000dc                __vector_28
+                0x000000dc                __vector_1
+                0x000000dc                __vector_32
+                0x000000dc                __vector_34
+                0x000000dc                __vector_24
+                0x000000dc                __vector_12
+                0x000000dc                __bad_interrupt
+                0x000000dc                __vector_6
+                0x000000dc                __vector_31
+                0x000000dc                __vector_3
+                0x000000dc                __vector_23
+                0x000000dc                __vector_30
+                0x000000dc                __vector_25
+                0x000000dc                __vector_11
+                0x000000dc                __vector_13
+                0x000000dc                __vector_17
+                0x000000dc                __vector_19
+                0x000000dc                __vector_7
+                0x000000dc                __vector_27
+                0x000000dc                __vector_5
+                0x000000dc                __vector_33
+                0x000000dc                __vector_4
+                0x000000dc                __vector_9
+                0x000000dc                __vector_2
+                0x000000dc                __vector_15
+                0x000000dc                __vector_29
+                0x000000dc                __vector_8
+                0x000000dc                __vector_26
+                0x000000dc                __vector_14
+                0x000000dc                __vector_10
+                0x000000dc                __vector_16
+                0x000000de                . = ALIGN (0x2)
  *(.text.*)
- .text.setup    0x000000ae        0x4 Sketch.o
-                0x000000ae                setup
- .text.loop     0x000000b2        0x2 Sketch.o
-                0x000000b2                loop
+ .text.setup    0x000000de       0x2a Sketch.o
+                0x000000de                setup
+ .text.loop     0x00000108       0x6a Sketch.o
+                0x00000108                loop
+ .text._ZN14HardwareSerial9availableEv
+                0x00000172       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000172                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x0000018a       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000018a                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x000001a6       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000001a6                _ZN14HardwareSerial4readEv
+ .text._Z14serialEventRunv
+                0x000001ce       0x3c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000001ce                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x0000020a       0x42 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000020a                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5writeEh
+                0x0000024c       0x8c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000024c                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5flushEv
+                0x000002d8       0x42 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000002d8                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5beginEmh
+                0x0000031a       0xc6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000031a                _ZN14HardwareSerial5beginEmh
+ .text.__vector_20
+                0x000003e0       0x6c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000003e0                __vector_20
+ .text.__vector_21
+                0x0000044c       0x52 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000044c                __vector_21
+ .text._Z17Serial0_availablev
+                0x0000049e       0x12 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000049e                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_20
+                0x000004b0       0x5a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x000000b4        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000000b4                initVariant
+                0x0000050a        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x0000050a                initVariant
  .text.startup.main
-                0x000000b6       0x16 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000000b6                main
+                0x0000050c       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x0000050c                main
+ .text._ZN5Print5writeEPKhj
+                0x00000520       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000520                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x00000574       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00000574                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x0000059e        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000059e                _ZN5Print5printEPKc
+ .text._ZN5Print7printlnEv
+                0x000005a0        0x6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000005a0                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x000005a6       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000005a6                _ZN5Print7printlnEPKc
  .text.__vector_18
-                0x000000cc       0x94 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x000000cc                __vector_18
- .text.init     0x00000160       0x90 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00000160                init
-                0x000001f0                . = ALIGN (0x2)
+                0x000005c6       0x94 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x000005c6                __vector_18
+ .text.init     0x0000065a       0x90 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x0000065a                init
+ .text.libgcc.div
+                0x000006ea       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x000006ea                __udivmodsi4
+ .text.libgcc   0x0000072e       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                0x0000072e                __tablejump2__
+                0x00000740                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000001f0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x000001f0                _exit
-                0x000001f0                exit
+ .fini9         0x00000740        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x00000740                _exit
+                0x00000740                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -336,44 +689,60 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000001f0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x00000740        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x000001f4                _etext = .
+                0x00000744                _etext = .
 
-.data           0x00800100        0x0 load address 0x000001f4
-                [!provide]                PROVIDE (__data_start, .)
+.data           0x00800100       0x2e load address 0x00000744
+                0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
+ .rodata.str1.1
+                0x00800100        0xe Sketch.o
+ .rodata._ZTV14HardwareSerial
+                0x0080010e       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0080010e                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x0080011e        0xf C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  *(.gnu.linkonce.r*)
-                0x00800100                . = ALIGN (0x2)
-                0x00800100                _edata = .
-                [!provide]                PROVIDE (__data_end, .)
+                0x0080012e                . = ALIGN (0x2)
+ *fill*         0x0080012d        0x1 
+                0x0080012e                _edata = .
+                0x0080012e                PROVIDE (__data_end, .)
 
-.bss            0x00800100        0x9
-                0x00800100                PROVIDE (__bss_start, .)
+.bss            0x0080012e       0xac
+                0x0080012e                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.u         0x0080012e        0x1 Sketch.o
+                0x0080012e                u
+ .bss.k         0x0080012f        0x1 Sketch.o
+                0x0080012f                k
+ .bss.in        0x00800130        0x4 Sketch.o
+                0x00800130                in
+ .bss.Serial    0x00800134       0x9d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800134                Serial
  .bss.timer0_fract
-                0x00800100        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008001d1        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x00800101        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00800101                timer0_millis
+                0x008001d2        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008001d2                timer0_millis
  .bss.timer0_overflow_count
-                0x00800105        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00800105                timer0_overflow_count
+                0x008001d6        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008001d6                timer0_overflow_count
  *(COMMON)
-                0x00800109                PROVIDE (__bss_end, .)
-                0x000001f4                __data_load_start = LOADADDR (.data)
-                0x000001f4                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008001da                PROVIDE (__bss_end, .)
+                0x00000744                __data_load_start = LOADADDR (.data)
+                0x00000772                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800109        0x0
+.noinit         0x008001da        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800109                _end = .
+                0x008001da                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -417,8 +786,11 @@ END GROUP
  *(.comment)
  .comment       0x00000000       0x30 Sketch.o
                                  0x31 (size before relaxing)
- .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x40
@@ -440,58 +812,86 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0xa0
+.debug_aranges  0x00000000      0x230
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x28 Sketch.o
  .debug_aranges
-                0x00000028       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x00000028       0x68 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x00000058       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000090       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_aranges
+                0x000000c8       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_aranges
+                0x000000f8       0xf0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_aranges
+                0x000001e8       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xe45
+.debug_info     0x00000000     0x7232
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x792 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_info    0x00000792      0x199 Sketch.o
- .debug_info    0x0000092b      0x243 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00000b6e      0x2d7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00000792      0x392 Sketch.o
+ .debug_info    0x00000b24     0x1ee5 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x00002a09     0x1aa5 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x000044ae      0x243 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x000046f1     0x286a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x00006f5b      0x2d7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
-.debug_abbrev   0x00000000      0xa31
+.debug_abbrev   0x00000000     0x17a3
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x729 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_abbrev  0x00000729       0x95 Sketch.o
- .debug_abbrev  0x000007be      0x12d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x000008eb      0x146 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00000729      0x1ca Sketch.o
+ .debug_abbrev  0x000008f3      0x432 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00000d25      0x3a2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x000010c7      0x12d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x000011f4      0x469 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x0000165d      0x146 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
-.debug_line     0x00000000      0x699
+.debug_line     0x00000000     0x1464
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x169 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_line    0x00000169      0x120 Sketch.o
- .debug_line    0x00000289      0x165 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_line    0x000003ee      0x2ab C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00000169      0x225 Sketch.o
+ .debug_line    0x0000038e      0x449 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x000007d7      0x257 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00000a2e      0x165 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00000b93      0x626 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x000011b9      0x2ab C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
-.debug_frame    0x00000000      0x14c
+.debug_frame    0x00000000      0x6b0
  *(.debug_frame)
- .debug_frame   0x00000000       0x34 Sketch.o
- .debug_frame   0x00000034       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x00000088       0xc4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00000000       0x3c Sketch.o
+ .debug_frame   0x0000003c      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x0000014c       0xc0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x0000020c       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x00000260      0x38c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x000005ec       0xc4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
-.debug_str      0x00000000      0x71e
+.debug_str      0x00000000     0x1f0f
  *(.debug_str)
  .debug_str     0x00000000      0x296 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_str     0x00000296      0x244 Sketch.o
-                                0x284 (size before relaxing)
- .debug_str     0x000004da       0xd0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00000296      0x345 Sketch.o
+                                0x3a1 (size before relaxing)
+ .debug_str     0x000005db     0x1340 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                               0x166c (size before relaxing)
+ .debug_str     0x0000191b       0x99 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                               0x13fd (size before relaxing)
+ .debug_str     0x000019b4       0x37 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                                 0x2d9 (size before relaxing)
- .debug_str     0x000005aa      0x174 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x000019eb      0x3b9 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                               0x121e (size before relaxing)
+ .debug_str     0x00001da4      0x16b C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                                 0x26f (size before relaxing)
 
-.debug_loc      0x00000000      0x28d
+.debug_loc      0x00000000     0x2532
  *(.debug_loc)
- .debug_loc     0x00000000      0x28d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x00000000       0x38 Sketch.o
+ .debug_loc     0x00000038      0x482 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x000004ba      0x18a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00000644     0x1c61 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x000022a5      0x28d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -511,11 +911,14 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x70
+.debug_ranges   0x00000000      0x200
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x18 Sketch.o
- .debug_ranges  0x00000018       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000038       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Training\AVR\ARDUIN~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000018       0x58 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x00000070       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000098       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x000000b8      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x000001c8       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\03_UART\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
 
 .debug_macro
  *(.debug_macro)

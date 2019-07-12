@@ -8,10 +8,42 @@
 //End of Auto generated function prototypes by Atmel Studio
 
 void setup() {
-	// put your setup code here, to run once:
+	// Initialize serial with baud 9600 bit per second
+	Serial.begin(9600);
+	// Print hello world on terminal
+	Serial.println("Hello World");
+	// Print shell sign
+	Serial.print(">");
+
+	DDRA |= (1 << PORTA0);
+	PORTA &= ~(1 << PORTA0);
 }
 
-void loop() {
-	// put your main code here, to run repeatedly:
+char in[4];
+char k, u;
 
+void loop() {
+	// Wait for serial input from device
+	while(!Serial.available());
+	// Read input data
+	u = Serial.read();
+	// Compare input data if it is enter key pressed
+	if(u != '\r') {
+		in[k++] = Serial.read();
+	}
+
+	// Compare buffer elements to check if is ON
+	if(in[0] == 'O' && in[1] == 'N') {
+		// Turn motor on
+		PORTA |= (1 << PORTA0);
+		// Clean buffer
+		memset(in, 0x00, sizeof(in));
+	}
+	// Compare buffer elements to check if is OFF
+	else if(in[0] == 'O' && in[1] == 'F' && in[2] == 'F') {
+		// Turn motor off
+		PORTA &= ~(1 << PORTA0);
+		// Clear buffer
+		memset(in, 0x00, sizeof(in));
+	}
 }
