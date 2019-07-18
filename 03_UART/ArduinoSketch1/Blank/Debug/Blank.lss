@@ -240,7 +240,7 @@ void loop() {
  13a:	80 93 2f 01 	sts	0x012F, r24	; 0x80012f <k>
 	}
 
-	// Compare buffer elements to check if is ON
+	// Compare buffer elements to check if it is ON
 	if(in[0] == 'O' && in[1] == 'N') {
  13e:	e0 e3       	ldi	r30, 0x30	; 48
  140:	f1 e0       	ldi	r31, 0x01	; 1
@@ -258,7 +258,7 @@ void loop() {
 		k = 0;
 		Serial.print(">");
 	}
-	// Compare buffer elements to check if is OFF
+	// Compare buffer elements to check if it is OFF
 	else if(in[0] == 'O' && in[1] == 'F' && in[2] == 'F') {
  156:	86 34       	cpi	r24, 0x46	; 70
  158:	89 f4       	brne	.+34     	; 0x17c <loop+0x74>

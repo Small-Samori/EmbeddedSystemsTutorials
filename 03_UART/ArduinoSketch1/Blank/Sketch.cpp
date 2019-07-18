@@ -34,16 +34,16 @@ void loop() {
 		k++;
 	}
 
-	// Compare buffer elements to check if is ON
+	// Compare buffer elements to check if it is ON
 	if(in[0] == 'O' && in[1] == 'N') {
 		// Turn motor on
 		PORTA |= (1 << PORTA0);
-		// Clean buffer
+		// Clear buffer
 		memset(in, 0x00, sizeof(in));
 		k = 0;
 		Serial.print(">");
 	}
-	// Compare buffer elements to check if is OFF
+	// Compare buffer elements to check if it is OFF
 	else if(in[0] == 'O' && in[1] == 'F' && in[2] == 'F') {
 		// Turn motor off
 		PORTA &= ~(1 << PORTA0);
