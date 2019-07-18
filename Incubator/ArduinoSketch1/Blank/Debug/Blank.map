@@ -52,12 +52,14 @@ C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\De
                               src/libraries/SimpleDHT/SimpleDHT.o (__cxa_pure_virtual)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
                               Sketch.o (_ZN14HardwareSerial9availableEv)
+C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                              Sketch.o (Serial)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o (main)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
-                              src/libraries/HX711/HX711.o (_ZdlPv)
+                              src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o (_Znaj)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
-                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
+                              src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o (_ZN5Print5writeEPKhj)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                               src/libraries/HX711/HX711.o (millis)
 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
@@ -80,10 +82,12 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o) (__unordsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
                               C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(WMath.o) (__mulsi3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+                              src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o (__udivmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
                               Sketch.o (__divmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                              C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
+                              src/libraries/Wire/Wire.o (__udivmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodsi4.o)
                               src/libraries/HX711/HX711.o (__divmodsi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_negsi2.o)
@@ -102,8 +106,6 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
                               Sketch.o (__do_global_dtors)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o) (__muluhisi3)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o) (__udivmodhi4)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o) (__umulhisi3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
@@ -128,6 +130,10 @@ Discarded input sections
  .text          0x00000000        0x0 Sketch.o
  .data          0x00000000        0x0 Sketch.o
  .bss           0x00000000        0x0 Sketch.o
+ .text._Z37PulseSensorPlaygroundDisableInterruptv
+                0x00000000        0x4 Sketch.o
+ .text._Z36PulseSensorPlaygroundEnableInterruptv
+                0x00000000        0x4 Sketch.o
  .text._Z15readTemperatureh
                 0x00000000       0x1e Sketch.o
  .text._Z23readTemptratureHumidityv
@@ -220,6 +226,170 @@ Discarded input sections
                 0x00000000       0x1a src/libraries/HX711/HX711.o
  .text._ZN5HX7118power_upEv
                 0x00000000        0xa src/libraries/HX711/HX711.o
+ .group         0x00000000        0x8 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .group         0x00000000        0x8 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .group         0x00000000        0x8 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text          0x00000000        0x0 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .data          0x00000000        0x0 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .bss           0x00000000        0x0 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C8printstrEPKc
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C3offEv
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C2onEv
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C8setDelayEii
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C6statusEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C6keypadEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C13init_bargraphEh
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C21draw_horizontal_graphEhhhh
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C19draw_vertical_graphEhhhh
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C11setContrastEh
+                0x00000000        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C11noBacklightEv
+                0x00000000        0xa src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C12setBacklightEh
+                0x00000000        0xa src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C9noDisplayEv
+                0x00000000        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C8noCursorEv
+                0x00000000        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C10cursor_offEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C6cursorEv
+                0x00000000       0x10 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C9cursor_onEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C7noBlinkEv
+                0x00000000        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C9blink_offEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C5blinkEv
+                0x00000000       0x10 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C8blink_onEv
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C17scrollDisplayLeftEv
+                0x00000000        0x6 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C18scrollDisplayRightEv
+                0x00000000        0x6 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C11leftToRightEv
+                0x00000000       0x10 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C11rightToLeftEv
+                0x00000000        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C10autoscrollEv
+                0x00000000       0x10 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C12noAutoscrollEv
+                0x00000000        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C10createCharEhPh
+                0x00000000       0x50 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text._ZN17LiquidCrystal_I2C21load_custom_characterEhPh
+                0x00000000        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .text          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .data          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .bss           0x00000000        0x0 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground12onSampleTimeEv
+                0x00000000       0x82 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground12sawNewSampleEv
+                0x00000000       0x82 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground15getLatestSampleEi
+                0x00000000       0x36 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground17getBeatsPerMinuteEi
+                0x00000000       0x36 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground22getInterBeatIntervalMsEi
+                0x00000000       0x36 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground14sawStartOfBeatEi
+                0x00000000       0x34 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground12isInsideBeatEi
+                0x00000000       0x34 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground12outputSampleEv
+                0x00000000       0x10 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground10outputBeatEi
+                0x00000000       0x12 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground14outputToSerialEci
+                0x00000000        0x6 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground17getPulseAmplitudeEi
+                0x00000000       0x36 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground15getLastBeatTimeEi
+                0x00000000       0x38 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground8isPausedEv
+                0x00000000        0x6 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground5pauseEv
+                0x00000000       0x78 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text._ZN21PulseSensorPlayground6resumeEv
+                0x00000000       0x40 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .progmem.data._ZZN21PulseSensorPlayground6resumeEvE3__c
+                0x00000000       0x1f src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .progmem.data._ZZN21PulseSensorPlayground5pauseEvE3__c
+                0x00000000       0x1e src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .text          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .data          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .bss           0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor15getLatestSampleEv
+                0x00000000        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor17getBeatsPerMinuteEv
+                0x00000000        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor22getInterBeatIntervalMsEv
+                0x00000000        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor17getPulseAmplitudeEv
+                0x00000000        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor15getLastBeatTimeEv
+                0x00000000        0xc src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor14sawStartOfBeatEv
+                0x00000000        0xc src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor12isInsideBeatEv
+                0x00000000        0x6 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor14readNextSampleEv
+                0x00000000       0x16 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor19processLatestSampleEv
+                0x00000000      0x24c src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text._ZN11PulseSensor10updateLEDsEv
+                0x00000000       0x42 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .text          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .data          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .bss           0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .text._ZN23PulseSensorSerialOutput14outputToSerialEci
+                0x00000000       0x3a src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .text._ZN23PulseSensorSerialOutput12outputSampleEP11PulseSensori
+                0x00000000      0x156 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .text._ZN23PulseSensorSerialOutput10outputBeatEP11PulseSensorii
+                0x00000000       0xa0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .progmem.data._ZZN23PulseSensorSerialOutput12outputSampleEP11PulseSensoriE3__c_1
+                0x00000000        0x2 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .progmem.data._ZZN23PulseSensorSerialOutput12outputSampleEP11PulseSensoriE3__c_0
+                0x00000000        0x2 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .progmem.data._ZZN23PulseSensorSerialOutput12outputSampleEP11PulseSensoriE3__c
+                0x00000000        0x2 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .text          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .data          0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .bss           0x00000000        0x0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .text._ZN27PulseSensorTimingStatistics15resetStatisticsEv
+                0x00000000       0x20 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .text._ZN27PulseSensorTimingStatisticsC2Eli
+                0x00000000       0x12 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .text._ZN27PulseSensorTimingStatistics16recordSampleTimeEv
+                0x00000000      0x10e src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .text._ZN27PulseSensorTimingStatistics22getAverageOffsetMicrosEv
+                0x00000000       0x68 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .rodata.str1.1
+                0x00000000        0x2 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .text._ZN27PulseSensorTimingStatistics16outputStatisticsEP6Stream
+                0x00000000       0x6a src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_info    0x00000000     0x1aed src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_abbrev  0x00000000      0x3a5 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_loc     0x00000000      0x381 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_aranges
+                0x00000000       0x40 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_ranges  0x00000000       0x30 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_line    0x00000000      0x357 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_str     0x00000000     0x1571 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .comment       0x00000000       0x31 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
+ .debug_frame   0x00000000       0xd4 src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
  .group         0x00000000        0x8 src/libraries/SimpleDHT/SimpleDHT.o
  .group         0x00000000        0x8 src/libraries/SimpleDHT/SimpleDHT.o
  .group         0x00000000        0x8 src/libraries/SimpleDHT/SimpleDHT.o
@@ -258,6 +428,57 @@ Discarded input sections
  .debug_str     0x00000000      0x565 src/libraries/SimpleDHT/SimpleDHT.o
  .comment       0x00000000       0x31 src/libraries/SimpleDHT/SimpleDHT.o
  .debug_frame   0x00000000      0x214 src/libraries/SimpleDHT/SimpleDHT.o
+ .text          0x00000000        0x0 src/libraries/Wire/utility/twi.o
+ .data          0x00000000        0x0 src/libraries/Wire/utility/twi.o
+ .bss           0x00000000        0x0 src/libraries/Wire/utility/twi.o
+ .text.twi_disable
+                0x00000000       0x1a src/libraries/Wire/utility/twi.o
+ .text.twi_setAddress
+                0x00000000        0x8 src/libraries/Wire/utility/twi.o
+ .text.twi_readFrom
+                0x00000000       0x90 src/libraries/Wire/utility/twi.o
+ .text.twi_attachSlaveRxEvent
+                0x00000000        0xa src/libraries/Wire/utility/twi.o
+ .text.twi_attachSlaveTxEvent
+                0x00000000        0xa src/libraries/Wire/utility/twi.o
+ .text.twi_reply
+                0x00000000       0x10 src/libraries/Wire/utility/twi.o
+ .group         0x00000000        0x8 src/libraries/Wire/Wire.o
+ .text          0x00000000        0x0 src/libraries/Wire/Wire.o
+ .data          0x00000000        0x0 src/libraries/Wire/Wire.o
+ .bss           0x00000000        0x0 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire16onReceiveServiceEPhi
+                0x00000000       0x54 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire16onRequestServiceEv
+                0x00000000       0x18 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5beginEh
+                0x00000000       0x26 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire5beginEi
+                0x00000000        0x4 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire3endEv
+                0x00000000        0x4 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire8setClockEm
+                0x00000000       0x28 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire17beginTransmissionEi
+                0x00000000        0x4 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEhhmhh
+                0x00000000       0xa8 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEhhh
+                0x00000000       0x20 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEhh
+                0x00000000        0x6 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEii
+                0x00000000        0x6 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire11requestFromEiii
+                0x00000000        0x4 src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire9onReceiveEPFviE
+                0x00000000        0xa src/libraries/Wire/Wire.o
+ .text._ZN7TwoWire9onRequestEPFvvE
+                0x00000000        0xa src/libraries/Wire/Wire.o
+ .bss._ZN7TwoWire14user_onReceiveE
+                0x00000000        0x2 src/libraries/Wire/Wire.o
+ .bss._ZN7TwoWire14user_onRequestE
+                0x00000000        0x2 src/libraries/Wire/Wire.o
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
@@ -374,26 +595,15 @@ Discarded input sections
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial9availableEv
-                0x00000000       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial4peekEv
-                0x00000000       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial4readEv
-                0x00000000       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00000000       0x42 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial5writeEh
-                0x00000000       0x8e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .text._ZN14HardwareSerial5flushEv
-                0x00000000       0x44 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .text._ZN14HardwareSerial5beginEmh
                 0x00000000       0xca C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .text._ZN14HardwareSerial3endEv
                 0x00000000       0x44 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .text._ZN14HardwareSerial17availableForWriteEv
                 0x00000000       0x1e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .rodata._ZTV14HardwareSerial
-                0x00000000       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
@@ -404,23 +614,14 @@ Discarded input sections
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
  .text._Znwj    0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .text._Znaj    0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
  .text._ZdaPv   0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
  .group         0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .group         0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5writeEPKhj
-                0x00000000       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5writeEPKc
-                0x00000000       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEPK19__FlashStringHelper
-                0x00000000       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK6String
                 0x00000000       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEPKc
-                0x00000000        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEc
                 0x00000000        0xe C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
@@ -469,31 +670,15 @@ Discarded input sections
                 0x00000000       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
                 0x00000000        0x8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x00000000     0x286a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00000000      0x469 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00000000     0x1c61 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_aranges
-                0x00000000       0xf0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000000      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00000000      0x626 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_str     0x00000000     0x121e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .comment       0x00000000       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x00000000      0x38c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .text.millis   0x00000000       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .text.delayMicroseconds
-                0x00000000       0x16 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .text.analogReference
                 0x00000000        0x6 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .text.analogWrite
-                0x00000000       0xe4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .progmem.gcc_sw_table.analogWrite
-                0x00000000       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .text          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
  .data          0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
  .bss           0x00000000        0x0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
@@ -566,6 +751,20 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
@@ -739,20 +938,6 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc.mul
-                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc.prologue
-                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc.builtins
-                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc.fmul
-                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
- .text.libgcc.fixed
-                0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
@@ -817,7 +1002,14 @@ Address of section .data set to 0x800100
 LOAD C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
 LOAD Sketch.o
 LOAD src/libraries/HX711/HX711.o
+LOAD src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+LOAD src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+LOAD src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+LOAD src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+LOAD src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o
 LOAD src/libraries/SimpleDHT/SimpleDHT.o
+LOAD src/libraries/Wire/utility/twi.o
+LOAD src/libraries/Wire/Wire.o
 START GROUP
 LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
 LOAD C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a
@@ -928,276 +1120,492 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xebe
+.text           0x00000000     0x1e48
  *(.vectors)
  .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
                 0x00000000                __vector_default
                 0x00000000                __vectors
  *(.vectors)
  *(.progmem.gcc*)
+ .progmem.gcc_sw_table.analogWrite
+                0x0000008c       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .progmem.gcc_sw_table.turnOffPWM
-                0x0000008c       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000000a0                . = ALIGN (0x2)
-                0x000000a0                __trampolines_start = .
+                0x000000a0       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000b4                . = ALIGN (0x2)
+                0x000000b4                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x000000a0        0x0 linker stubs
+ .trampolines   0x000000b4        0x0 linker stubs
  *(.trampolines*)
-                0x000000a0                __trampolines_end = .
+                0x000000b4                __trampolines_end = .
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
  *(.progmem*)
+ .progmem.data._ZZN21PulseSensorPlayground5beginEvE3__c
+                0x000000b4       0x2b src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
  .progmem.data.digital_pin_to_timer_PGM
-                0x000000a0       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000000a0                digital_pin_to_timer_PGM
+                0x000000df       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000df                digital_pin_to_timer_PGM
  .progmem.data.digital_pin_to_bit_mask_PGM
-                0x000000c0       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000000c0                digital_pin_to_bit_mask_PGM
+                0x000000ff       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000000ff                digital_pin_to_bit_mask_PGM
  .progmem.data.digital_pin_to_port_PGM
-                0x000000e0       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000000e0                digital_pin_to_port_PGM
+                0x0000011f       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000011f                digital_pin_to_port_PGM
  .progmem.data.port_to_input_PGM
-                0x00000100        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000100                port_to_input_PGM
+                0x0000013f        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000013f                port_to_input_PGM
  .progmem.data.port_to_output_PGM
-                0x0000010a        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000010a                port_to_output_PGM
+                0x00000149        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000149                port_to_output_PGM
  .progmem.data.port_to_mode_PGM
-                0x00000114        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000114                port_to_mode_PGM
-                0x0000011e                . = ALIGN (0x2)
+                0x00000153        0xa C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000153                port_to_mode_PGM
+                0x0000015e                . = ALIGN (0x2)
+ *fill*         0x0000015d        0x1 
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x0000011e                __ctors_start = .
+                0x0000015e                __ctors_start = .
  *(.ctors)
- .ctors         0x0000011e        0x2 Sketch.o
-                0x00000120                __ctors_end = .
-                0x00000120                __dtors_start = .
+ .ctors         0x0000015e        0x2 Sketch.o
+ .ctors         0x00000160        0x2 src/libraries/Wire/Wire.o
+ .ctors         0x00000162        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000164                __ctors_end = .
+                0x00000164                __dtors_start = .
  *(.dtors)
- .dtors         0x00000120        0x2 Sketch.o
-                0x00000122                __dtors_end = .
+ .dtors         0x00000164        0x2 Sketch.o
+                0x00000166                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000122        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
-                0x00000122                __init
+ .init0         0x00000166        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+                0x00000166                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000122        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+ .init2         0x00000166        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000012e       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
-                0x0000012e                __do_copy_data
- .init4         0x00000148       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
-                0x00000148                __do_clear_bss
+ .init4         0x00000172       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                0x00000172                __do_copy_data
+ .init4         0x0000018c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                0x0000018c                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x00000158       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
-                0x00000158                __do_global_ctors
+ .init6         0x0000019c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+                0x0000019c                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000016c        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+ .init9         0x000001b2        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
  *(.init9)
  *(.text)
- .text          0x00000170        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
-                0x00000170                __vector_22
-                0x00000170                __vector_28
-                0x00000170                __vector_1
-                0x00000170                __vector_32
-                0x00000170                __vector_34
-                0x00000170                __vector_24
-                0x00000170                __vector_12
-                0x00000170                __bad_interrupt
-                0x00000170                __vector_6
-                0x00000170                __vector_31
-                0x00000170                __vector_3
-                0x00000170                __vector_23
-                0x00000170                __vector_30
-                0x00000170                __vector_25
-                0x00000170                __vector_11
-                0x00000170                __vector_13
-                0x00000170                __vector_17
-                0x00000170                __vector_19
-                0x00000170                __vector_7
-                0x00000170                __vector_27
-                0x00000170                __vector_5
-                0x00000170                __vector_33
-                0x00000170                __vector_4
-                0x00000170                __vector_9
-                0x00000170                __vector_2
-                0x00000170                __vector_21
-                0x00000170                __vector_15
-                0x00000170                __vector_29
-                0x00000170                __vector_8
-                0x00000170                __vector_26
-                0x00000170                __vector_14
-                0x00000170                __vector_10
-                0x00000170                __vector_16
-                0x00000170                __vector_20
-                0x00000172                . = ALIGN (0x2)
+ .text          0x000001ba        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
+                0x000001ba                __vector_22
+                0x000001ba                __vector_28
+                0x000001ba                __vector_1
+                0x000001ba                __vector_32
+                0x000001ba                __vector_34
+                0x000001ba                __vector_24
+                0x000001ba                __vector_12
+                0x000001ba                __bad_interrupt
+                0x000001ba                __vector_6
+                0x000001ba                __vector_31
+                0x000001ba                __vector_3
+                0x000001ba                __vector_23
+                0x000001ba                __vector_30
+                0x000001ba                __vector_25
+                0x000001ba                __vector_11
+                0x000001ba                __vector_13
+                0x000001ba                __vector_17
+                0x000001ba                __vector_19
+                0x000001ba                __vector_7
+                0x000001ba                __vector_27
+                0x000001ba                __vector_5
+                0x000001ba                __vector_33
+                0x000001ba                __vector_4
+                0x000001ba                __vector_9
+                0x000001ba                __vector_2
+                0x000001ba                __vector_15
+                0x000001ba                __vector_29
+                0x000001ba                __vector_8
+                0x000001ba                __vector_14
+                0x000001ba                __vector_10
+                0x000001ba                __vector_16
+                0x000001bc                . = ALIGN (0x2)
  *(.text.*)
+ .text._Z35PulseSensorPlaygroundSetupInterruptv
+                0x000001bc        0x4 Sketch.o
+                0x000001bc                _Z35PulseSensorPlaygroundSetupInterruptv
  .text._Z23MQResistanceCalculationi
-                0x00000172       0x4a Sketch.o
-                0x00000172                _Z23MQResistanceCalculationi
+                0x000001c0       0x4e Sketch.o
+                0x000001c0                _Z23MQResistanceCalculationi
  .text._Z13MQCalibrationhh
-                0x000001bc       0xc4 Sketch.o
-                0x000001bc                _Z13MQCalibrationhh
- .text.setup    0x00000280       0x24 Sketch.o
-                0x00000280                setup
- .text.loop     0x000002a4        0x2 Sketch.o
-                0x000002a4                loop
- .text.startup._GLOBAL__sub_I_pinDHT11
-                0x000002a6        0x6 Sketch.o
- .text.exit._GLOBAL__sub_D_pinDHT11
-                0x000002ac        0x6 Sketch.o
+                0x0000020e       0xc8 Sketch.o
+                0x0000020e                _Z13MQCalibrationhh
+ .text.setup    0x000002d6       0xfa Sketch.o
+                0x000002d6                setup
+ .text.loop     0x000003d0        0x2 Sketch.o
+                0x000003d0                loop
+ .text.startup._GLOBAL__sub_I__ZN21PulseSensorPlayground15UsingInterruptsE
+                0x000003d2       0x1c Sketch.o
+ .text.exit._GLOBAL__sub_D__ZN21PulseSensorPlayground15UsingInterruptsE
+                0x000003ee        0x6 Sketch.o
  .text._ZN5HX711D2Ev
-                0x000002b2        0x2 src/libraries/HX711/HX711.o
-                0x000002b2                _ZN5HX711D2Ev
-                0x000002b2                _ZN5HX711D1Ev
+                0x000003f4        0x2 src/libraries/HX711/HX711.o
+                0x000003f4                _ZN5HX711D2Ev
+                0x000003f4                _ZN5HX711D1Ev
  .text._ZN5HX711D0Ev
-                0x000002b4        0x2 src/libraries/HX711/HX711.o
-                0x000002b4                _ZN5HX711D0Ev
+                0x000003f6        0x4 src/libraries/HX711/HX711.o
+                0x000003f6                _ZN5HX711D0Ev
  .text._ZN5HX711C2Ev
-                0x000002b6       0x24 src/libraries/HX711/HX711.o
-                0x000002b6                _ZN5HX711C2Ev
-                0x000002b6                _ZN5HX711C1Ev
+                0x000003fa       0x24 src/libraries/HX711/HX711.o
+                0x000003fa                _ZN5HX711C2Ev
+                0x000003fa                _ZN5HX711C1Ev
  .text._ZN5HX7118is_readyEv
-                0x000002da       0x12 src/libraries/HX711/HX711.o
-                0x000002da                _ZN5HX7118is_readyEv
+                0x0000041e       0x14 src/libraries/HX711/HX711.o
+                0x0000041e                _ZN5HX7118is_readyEv
  .text._ZN5HX71110wait_readyEm
-                0x000002ec       0x30 src/libraries/HX711/HX711.o
-                0x000002ec                _ZN5HX71110wait_readyEm
+                0x00000432       0x32 src/libraries/HX711/HX711.o
+                0x00000432                _ZN5HX71110wait_readyEm
  .text._ZN5HX7114readEv
-                0x0000031c       0xae src/libraries/HX711/HX711.o
-                0x0000031c                _ZN5HX7114readEv
+                0x00000464       0xb8 src/libraries/HX711/HX711.o
+                0x00000464                _ZN5HX7114readEv
  .text._ZN5HX7118set_gainEh
-                0x000003ca       0x2c src/libraries/HX711/HX711.o
-                0x000003ca                _ZN5HX7118set_gainEh
+                0x0000051c       0x2e src/libraries/HX711/HX711.o
+                0x0000051c                _ZN5HX7118set_gainEh
  .text._ZN5HX7115beginEhhh
-                0x000003f6       0x26 src/libraries/HX711/HX711.o
-                0x000003f6                _ZN5HX7115beginEhhh
+                0x0000054a       0x2a src/libraries/HX711/HX711.o
+                0x0000054a                _ZN5HX7115beginEhhh
+ .text._ZN17LiquidCrystal_I2CC2Ehhh
+                0x00000574       0x18 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x00000574                _ZN17LiquidCrystal_I2CC1Ehhh
+                0x00000574                _ZN17LiquidCrystal_I2CC2Ehhh
+ .text._ZN17LiquidCrystal_I2C13expanderWriteEh
+                0x0000058c       0x28 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x0000058c                _ZN17LiquidCrystal_I2C13expanderWriteEh
+ .text._ZN17LiquidCrystal_I2C9backlightEv
+                0x000005b4        0xa src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000005b4                _ZN17LiquidCrystal_I2C9backlightEv
+ .text._ZN17LiquidCrystal_I2C11pulseEnableEh
+                0x000005be       0x2c src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000005be                _ZN17LiquidCrystal_I2C11pulseEnableEh
+ .text._ZN17LiquidCrystal_I2C10write4bitsEh
+                0x000005ea       0x18 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000005ea                _ZN17LiquidCrystal_I2C10write4bitsEh
+ .text._ZN17LiquidCrystal_I2C4sendEhh
+                0x00000602       0x2a src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x00000602                _ZN17LiquidCrystal_I2C4sendEhh
+ .text._ZN17LiquidCrystal_I2C7commandEh
+                0x0000062c        0x4 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x0000062c                _ZN17LiquidCrystal_I2C7commandEh
+ .text._ZN17LiquidCrystal_I2C5clearEv
+                0x00000630        0xc src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x00000630                _ZN17LiquidCrystal_I2C5clearEv
+ .text._ZN17LiquidCrystal_I2C4homeEv
+                0x0000063c        0xc src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x0000063c                _ZN17LiquidCrystal_I2C4homeEv
+ .text._ZN17LiquidCrystal_I2C9setCursorEhh
+                0x00000648       0x5a src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x00000648                _ZN17LiquidCrystal_I2C9setCursorEhh
+ .text._ZN17LiquidCrystal_I2C7displayEv
+                0x000006a2        0xe src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000006a2                _ZN17LiquidCrystal_I2C7displayEv
+ .text._ZN17LiquidCrystal_I2C5writeEh
+                0x000006b0        0xa src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000006b0                _ZN17LiquidCrystal_I2C5writeEh
+ .text._ZN17LiquidCrystal_I2C5beginEhhh
+                0x000006ba       0x94 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x000006ba                _ZN17LiquidCrystal_I2C5beginEhhh
+ .text._ZN17LiquidCrystal_I2C9init_privEv
+                0x0000074e       0x1c src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x0000074e                _ZN17LiquidCrystal_I2C9init_privEv
+ .text._ZN17LiquidCrystal_I2C4initEv
+                0x0000076a        0x2 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x0000076a                _ZN17LiquidCrystal_I2C4initEv
+ .text._ZN21PulseSensorPlaygroundC2Ei
+                0x0000076c       0x6c src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x0000076c                _ZN21PulseSensorPlaygroundC2Ei
+                0x0000076c                _ZN21PulseSensorPlaygroundC1Ei
+ .text._ZN21PulseSensorPlayground5beginEv
+                0x000007d8       0x88 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x000007d8                _ZN21PulseSensorPlayground5beginEv
+ .text._ZN21PulseSensorPlayground11analogInputEii
+                0x00000860       0x30 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x00000860                _ZN21PulseSensorPlayground11analogInputEii
+ .text._ZN21PulseSensorPlayground12blinkOnPulseEii
+                0x00000890       0x30 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x00000890                _ZN21PulseSensorPlayground12blinkOnPulseEii
+ .text._ZN21PulseSensorPlayground11fadeOnPulseEii
+                0x000008c0       0x30 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x000008c0                _ZN21PulseSensorPlayground11fadeOnPulseEii
+ .text._ZN21PulseSensorPlayground9setSerialER6Stream
+                0x000008f0        0x4 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x000008f0                _ZN21PulseSensorPlayground9setSerialER6Stream
+ .text._ZN21PulseSensorPlayground13setOutputTypeEh
+                0x000008f4        0x4 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x000008f4                _ZN21PulseSensorPlayground13setOutputTypeEh
+ .text._ZN21PulseSensorPlayground12setThresholdEii
+                0x000008f8       0x30 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x000008f8                _ZN21PulseSensorPlayground12setThresholdEii
+ .text._ZN11PulseSensor14resetVariablesEv
+                0x00000928       0x5e src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x00000928                _ZN11PulseSensor14resetVariablesEv
+ .text._ZN11PulseSensorC2Ev
+                0x00000986       0x28 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x00000986                _ZN11PulseSensorC2Ev
+                0x00000986                _ZN11PulseSensorC1Ev
+ .text._ZN11PulseSensor11analogInputEi
+                0x000009ae        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x000009ae                _ZN11PulseSensor11analogInputEi
+ .text._ZN11PulseSensor12blinkOnPulseEi
+                0x000009b6        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x000009b6                _ZN11PulseSensor12blinkOnPulseEi
+ .text._ZN11PulseSensor11fadeOnPulseEi
+                0x000009be        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x000009be                _ZN11PulseSensor11fadeOnPulseEi
+ .text._ZN11PulseSensor12setThresholdEi
+                0x000009c6       0x10 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x000009c6                _ZN11PulseSensor12setThresholdEi
+ .text._ZN11PulseSensor14initializeLEDsEv
+                0x000009d6       0x3a src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                0x000009d6                _ZN11PulseSensor14initializeLEDsEv
+ .text._ZN23PulseSensorSerialOutputC2Ev
+                0x00000a10       0x10 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+                0x00000a10                _ZN23PulseSensorSerialOutputC1Ev
+                0x00000a10                _ZN23PulseSensorSerialOutputC2Ev
+ .text._ZN23PulseSensorSerialOutput9setSerialER6Stream
+                0x00000a20        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+                0x00000a20                _ZN23PulseSensorSerialOutput9setSerialER6Stream
+ .text._ZN23PulseSensorSerialOutput9getSerialEv
+                0x00000a28        0x8 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+                0x00000a28                _ZN23PulseSensorSerialOutput9getSerialEv
+ .text._ZN23PulseSensorSerialOutput13setOutputTypeEh
+                0x00000a30        0xa src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+                0x00000a30                _ZN23PulseSensorSerialOutput13setOutputTypeEh
+ .text.twi_init
+                0x00000a3a       0x3c src/libraries/Wire/utility/twi.o
+                0x00000a3a                twi_init
+ .text.twi_writeTo
+                0x00000a76       0xac src/libraries/Wire/utility/twi.o
+                0x00000a76                twi_writeTo
+ .text.twi_transmit
+                0x00000b22       0x32 src/libraries/Wire/utility/twi.o
+                0x00000b22                twi_transmit
+ .text.twi_stop
+                0x00000b54       0x14 src/libraries/Wire/utility/twi.o
+                0x00000b54                twi_stop
+ .text.twi_releaseBus
+                0x00000b68        0xc src/libraries/Wire/utility/twi.o
+                0x00000b68                twi_releaseBus
+ .text.__vector_26
+                0x00000b74      0x25c src/libraries/Wire/utility/twi.o
+                0x00000b74                __vector_26
+ .text._ZN7TwoWire9availableEv
+                0x00000dd0       0x10 src/libraries/Wire/Wire.o
+                0x00000dd0                _ZN7TwoWire9availableEv
+ .text._ZN7TwoWire4readEv
+                0x00000de0       0x28 src/libraries/Wire/Wire.o
+                0x00000de0                _ZN7TwoWire4readEv
+ .text._ZN7TwoWire4peekEv
+                0x00000e08       0x1e src/libraries/Wire/Wire.o
+                0x00000e08                _ZN7TwoWire4peekEv
+ .text._ZN7TwoWire5flushEv
+                0x00000e26        0x2 src/libraries/Wire/Wire.o
+                0x00000e26                _ZN7TwoWire5flushEv
+ .text._ZN7TwoWire5writeEPKhj
+                0x00000e28       0x58 src/libraries/Wire/Wire.o
+                0x00000e28                _ZN7TwoWire5writeEPKhj
+ .text._ZN7TwoWire5writeEh
+                0x00000e80       0x5c src/libraries/Wire/Wire.o
+                0x00000e80                _ZN7TwoWire5writeEh
+ .text._ZN7TwoWireC2Ev
+                0x00000edc       0x20 src/libraries/Wire/Wire.o
+                0x00000edc                _ZN7TwoWireC1Ev
+                0x00000edc                _ZN7TwoWireC2Ev
+ .text._ZN7TwoWire5beginEv
+                0x00000efc       0x12 src/libraries/Wire/Wire.o
+                0x00000efc                _ZN7TwoWire5beginEv
+ .text._ZN7TwoWire17beginTransmissionEh
+                0x00000f0e       0x14 src/libraries/Wire/Wire.o
+                0x00000f0e                _ZN7TwoWire17beginTransmissionEh
+ .text._ZN7TwoWire15endTransmissionEh
+                0x00000f22       0x24 src/libraries/Wire/Wire.o
+                0x00000f22                _ZN7TwoWire15endTransmissionEh
+ .text._ZN7TwoWire15endTransmissionEv
+                0x00000f46        0x4 src/libraries/Wire/Wire.o
+                0x00000f46                _ZN7TwoWire15endTransmissionEv
+ .text.startup._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
+                0x00000f4a        0x6 src/libraries/Wire/Wire.o
  .text.avr-libc.fplib
-                0x0000041c        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
-                0x0000041c                __subsf3
-                0x0000041e                __addsf3
+                0x00000f50        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                0x00000f50                __subsf3
+                0x00000f52                __addsf3
  .text.avr-libc.fplib
-                0x00000426       0xc0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
-                0x00000440                __addsf3x
+                0x00000f5a       0xc0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                0x00000f74                __addsf3x
  .text.avr-libc.fplib
-                0x000004e6        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
-                0x000004e6                __divsf3
+                0x0000101a        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x0000101a                __divsf3
  .text.avr-libc.fplib
-                0x000004ea       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
-                0x00000500                __divsf3x
-                0x00000504                __divsf3_pse
+                0x0000101e       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x00001034                __divsf3x
+                0x00001038                __divsf3_pse
  .text.avr-libc.fplib
-                0x000005b6       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
-                0x000005b6                __floatunsisf
-                0x000005ba                __floatsisf
+                0x000010ea       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x000010ea                __floatunsisf
+                0x000010ee                __floatsisf
  .text.avr-libc.fplib
-                0x00000630        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
-                0x00000630                __fp_inf
+                0x00001164        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x00001164                __fp_inf
  .text.avr-libc.fplib
-                0x0000063c        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
-                0x0000063c                __fp_nan
+                0x00001170        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00001170                __fp_nan
  .text.avr-libc.fplib
-                0x00000642        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
-                0x00000642                __fp_pscA
+                0x00001176        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x00001176                __fp_pscA
  .text.avr-libc.fplib
-                0x00000650        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
-                0x00000650                __fp_pscB
+                0x00001184        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x00001184                __fp_pscB
  .text.avr-libc.fplib
-                0x0000065e       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
-                0x0000065e                __fp_round
+                0x00001192       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00001192                __fp_round
  .text.avr-libc.fplib
-                0x00000680       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
-                0x00000680                __fp_split3
-                0x00000690                __fp_splitA
+                0x000011b4       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x000011b4                __fp_split3
+                0x000011c4                __fp_splitA
  .text.avr-libc.fplib
-                0x000006c4        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
-                0x000006c4                __fp_zero
-                0x000006c6                __fp_szero
+                0x000011f8        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x000011f8                __fp_zero
+                0x000011fa                __fp_szero
  .text.avr-libc.fplib
-                0x000006d2        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
-                0x000006d2                __mulsf3
+                0x00001206        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x00001206                __mulsf3
  .text.avr-libc.fplib
-                0x000006d6       0xc2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
-                0x000006ea                __mulsf3x
-                0x000006ee                __mulsf3_pse
+                0x0000120a       0xc2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x0000121e                __mulsf3x
+                0x00001222                __mulsf3_pse
+ .text._ZN14HardwareSerial9availableEv
+                0x000012cc       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000012cc                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x000012e4       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000012e4                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x00001300       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001300                _ZN14HardwareSerial4readEv
  .text._Z14serialEventRunv
-                0x00000798       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000798                _Z14serialEventRunv
+                0x00001328       0x3c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001328                _Z14serialEventRunv
+ .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00001364       0x42 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001364                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+ .text._ZN14HardwareSerial5writeEh
+                0x000013a6       0x8c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000013a6                _ZN14HardwareSerial5writeEh
+ .text._ZN14HardwareSerial5flushEv
+                0x00001432       0x42 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001432                _ZN14HardwareSerial5flushEv
+ .text.__vector_20
+                0x00001474       0x6c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001474                __vector_20
+ .text.__vector_21
+                0x000014e0       0x52 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000014e0                __vector_21
+ .text._Z17Serial0_availablev
+                0x00001532       0x12 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001532                _Z17Serial0_availablev
+ .text.startup._GLOBAL__sub_I___vector_20
+                0x00001544       0x5a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x000007d6        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000007d6                initVariant
+                0x0000159e        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x0000159e                initVariant
  .text.startup.main
-                0x000007d8       0x14 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
-                0x000007d8                main
- .text._ZdlPv   0x000007ec        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
-                0x000007ec                _ZdlPv
+                0x000015a0       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000015a0                main
+ .text._Znaj    0x000015b8        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+                0x000015b8                _Znaj
+ .text._ZdlPv   0x000015ba        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+                0x000015ba                _ZdlPv
+ .text._ZN5Print5writeEPKhj
+                0x000015bc       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x000015bc                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x00001610       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00001610                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x0000163a       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x0000163a                _ZN5Print5printEPK19__FlashStringHelper
+ .text._ZN5Print5printEPKc
+                0x00001682        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                0x00001682                _ZN5Print5printEPKc
  .text.__vector_18
-                0x000007ee       0x94 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x000007ee                __vector_18
- .text.micros   0x00000882       0x4a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00000882                micros
- .text.delay    0x000008cc       0x72 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x000008cc                delay
- .text.init     0x0000093e       0x90 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x0000093e                init
+                0x00001684       0x94 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00001684                __vector_18
+ .text.micros   0x00001718       0x4a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00001718                micros
+ .text.delay    0x00001762       0x72 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00001762                delay
+ .text.delayMicroseconds
+                0x000017d4       0x16 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x000017d4                delayMicroseconds
+ .text.init     0x000017ea       0x90 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x000017ea                init
  .text.analogRead
-                0x000009ce       0x46 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
-                0x000009ce                analogRead
+                0x0000187a       0x46 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+                0x0000187a                analogRead
+ .text.analogWrite
+                0x000018c0       0xde C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+                0x000018c0                analogWrite
  .text.turnOffPWM
-                0x00000a14       0x5c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x00000a70       0x78 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000a70                pinMode
+                0x0000199e       0x5c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x000019fa       0x78 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000019fa                pinMode
  .text.digitalWrite
-                0x00000ae8       0x5c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000ae8                digitalWrite
+                0x00001a72       0x5c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001a72                digitalWrite
  .text.digitalRead
-                0x00000b44       0x50 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000b44                digitalRead
- .text.shiftIn  0x00000b94       0x6e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
-                0x00000b94                shiftIn
- .text.__empty  0x00000c02        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
-                0x00000c02                yield
+                0x00001ace       0x50 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001ace                digitalRead
+ .text.shiftIn  0x00001b1e       0x6e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+                0x00001b1e                shiftIn
+ .text.__empty  0x00001b8c        0x2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00001b8c                yield
  .text.libgcc.div
-                0x00000c04       0x26 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
-                0x00000c04                _div
-                0x00000c04                __divmodhi4
- .text.libgcc   0x00000c2a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
-                0x00000c2a                __tablejump2__
+                0x00001b8e       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
+                0x00001b8e                __udivmodhi4
  .text.libgcc.div
-                0x00000c3c       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodhi4.o)
-                0x00000c3c                __udivmodhi4
+                0x00001bb6       0x26 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_divmodhi4.o)
+                0x00001bb6                _div
+                0x00001bb6                __divmodhi4
+ .text.libgcc   0x00001bdc       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                0x00001bdc                __tablejump2__
  .text.avr-libc
-                0x00000c64      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x00000c64                malloc
-                0x00000d94                free
-                0x00000ea6                . = ALIGN (0x2)
+                0x00001bee      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00001bee                malloc
+                0x00001d1e                free
+                0x00001e30                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000ea6        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x00000ea6                _exit
-                0x00000ea6                exit
+ .fini9         0x00001e30        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x00001e30                _exit
+                0x00001e30                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00000ea6       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
-                0x00000ea6                __do_global_dtors
+ .fini6         0x00001e30       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
+                0x00001e30                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1210,11 +1618,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000eba        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x00001e44        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ebe                _etext = .
+                0x00001e48                _etext = .
 
-.data           0x00800100       0x1c load address 0x00000ebe
+.data           0x00800100       0x5e load address 0x00001e48
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
@@ -1240,51 +1648,132 @@ END GROUP
  .data.RL_VALUE
                 0x00800110        0x2 Sketch.o
                 0x00800110                RL_VALUE
+ .data._ZN21PulseSensorPlayground15UsingInterruptsE
+                0x00800112        0x1 Sketch.o
+                0x00800112                _ZN21PulseSensorPlayground15UsingInterruptsE
  .data.analog_reference
-                0x00800112        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
-                0x00800112                analog_reference
+                0x00800113        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00800113                analog_reference
  *(.gnu.linkonce.d*)
  *(.rodata)
+ .rodata        0x00800114        0x8 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
  *(.rodata*)
+ .rodata.str1.1
+                0x0080011c       0x11 Sketch.o
  .rodata._ZTV5HX711
-                0x00800113        0x8 src/libraries/HX711/HX711.o
-                0x00800113                _ZTV5HX711
+                0x0080012d        0x8 src/libraries/HX711/HX711.o
+                0x0080012d                _ZTV5HX711
+ .rodata._ZTV17LiquidCrystal_I2C
+                0x00800135        0x8 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                0x00800135                _ZTV17LiquidCrystal_I2C
+ .rodata._ZTV7TwoWire
+                0x0080013d       0x10 src/libraries/Wire/Wire.o
+                0x0080013d                _ZTV7TwoWire
+ .rodata._ZTV14HardwareSerial
+                0x0080014d       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0080014d                _ZTV14HardwareSerial
  *(.gnu.linkonce.r*)
-                0x0080011c                . = ALIGN (0x2)
- *fill*         0x0080011b        0x1 
-                0x0080011c                _edata = .
-                0x0080011c                PROVIDE (__data_end, .)
+                0x0080015e                . = ALIGN (0x2)
+ *fill*         0x0080015d        0x1 
+                0x0080015e                _edata = .
+                0x0080015e                PROVIDE (__data_end, .)
 
-.bss            0x0080011c       0x26
-                0x0080011c                PROVIDE (__bss_start, .)
+.bss            0x0080015e      0x19e
+                0x0080015e                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.Ro        0x0080011c        0xc Sketch.o
-                0x0080011c                Ro
- .bss.scale     0x00800128        0xd Sketch.o
-                0x00800128                scale
+ .bss.lcd       0x0080015e        0xc Sketch.o
+                0x0080015e                lcd
+ .bss.pulseSensor
+                0x0080016a        0xd Sketch.o
+                0x0080016a                pulseSensor
+ .bss.Ro        0x00800177        0xc Sketch.o
+                0x00800177                Ro
+ .bss.scale     0x00800183        0xd Sketch.o
+                0x00800183                scale
+ .bss._ZN21PulseSensorPlayground7OurThisE
+                0x00800190        0x2 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                0x00800190                _ZN21PulseSensorPlayground7OurThisE
+ .bss.twi_error
+                0x00800192        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_rxBufferIndex
+                0x00800193        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_rxBuffer
+                0x00800194       0x20 src/libraries/Wire/utility/twi.o
+ .bss.twi_txBufferLength
+                0x008001b4        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_txBufferIndex
+                0x008001b5        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_txBuffer
+                0x008001b6       0x20 src/libraries/Wire/utility/twi.o
+ .bss.twi_masterBufferLength
+                0x008001d6        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_masterBufferIndex
+                0x008001d7        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_masterBuffer
+                0x008001d8       0x20 src/libraries/Wire/utility/twi.o
+ .bss.twi_onSlaveReceive
+                0x008001f8        0x2 src/libraries/Wire/utility/twi.o
+ .bss.twi_onSlaveTransmit
+                0x008001fa        0x2 src/libraries/Wire/utility/twi.o
+ .bss.twi_inRepStart
+                0x008001fc        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_sendStop
+                0x008001fd        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_slarw
+                0x008001fe        0x1 src/libraries/Wire/utility/twi.o
+ .bss.twi_state
+                0x008001ff        0x1 src/libraries/Wire/utility/twi.o
+ .bss.Wire      0x00800200        0xc src/libraries/Wire/Wire.o
+                0x00800200                Wire
+ .bss._ZN7TwoWire12transmittingE
+                0x0080020c        0x1 src/libraries/Wire/Wire.o
+                0x0080020c                _ZN7TwoWire12transmittingE
+ .bss._ZN7TwoWire14txBufferLengthE
+                0x0080020d        0x1 src/libraries/Wire/Wire.o
+                0x0080020d                _ZN7TwoWire14txBufferLengthE
+ .bss._ZN7TwoWire13txBufferIndexE
+                0x0080020e        0x1 src/libraries/Wire/Wire.o
+                0x0080020e                _ZN7TwoWire13txBufferIndexE
+ .bss._ZN7TwoWire8txBufferE
+                0x0080020f       0x20 src/libraries/Wire/Wire.o
+                0x0080020f                _ZN7TwoWire8txBufferE
+ .bss._ZN7TwoWire9txAddressE
+                0x0080022f        0x1 src/libraries/Wire/Wire.o
+                0x0080022f                _ZN7TwoWire9txAddressE
+ .bss._ZN7TwoWire14rxBufferLengthE
+                0x00800230        0x1 src/libraries/Wire/Wire.o
+                0x00800230                _ZN7TwoWire14rxBufferLengthE
+ .bss._ZN7TwoWire13rxBufferIndexE
+                0x00800231        0x1 src/libraries/Wire/Wire.o
+                0x00800231                _ZN7TwoWire13rxBufferIndexE
+ .bss._ZN7TwoWire8rxBufferE
+                0x00800232       0x20 src/libraries/Wire/Wire.o
+                0x00800232                _ZN7TwoWire8rxBufferE
+ .bss.Serial    0x00800252       0x9d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800252                Serial
  .bss.timer0_fract
-                0x00800135        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008002ef        0x1 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x00800136        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x00800136                timer0_millis
+                0x008002f0        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008002f0                timer0_millis
  .bss.timer0_overflow_count
-                0x0080013a        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
-                0x0080013a                timer0_overflow_count
+                0x008002f4        0x4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x008002f4                timer0_overflow_count
  *(COMMON)
- COMMON         0x0080013e        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x0080013e                __brkval
-                0x00800140                __flp
-                0x00800142                PROVIDE (__bss_end, .)
-                0x00000ebe                __data_load_start = LOADADDR (.data)
-                0x00000eda                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008002f8        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x008002f8                __brkval
+                0x008002fa                __flp
+                0x008002fc                PROVIDE (__bss_end, .)
+                0x00001e48                __data_load_start = LOADADDR (.data)
+                0x00001ea6                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800142        0x0
+.noinit         0x008002fc        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800142                _end = .
-                0x00800142                PROVIDE (__heap_start, .)
+                0x008002fc                _end = .
+                0x008002fc                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1328,9 +1817,17 @@ END GROUP
  .comment       0x00000000       0x30 Sketch.o
                                  0x31 (size before relaxing)
  .comment       0x00000030       0x31 src/libraries/HX711/HX711.o
+ .comment       0x00000030       0x31 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .comment       0x00000030       0x31 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .comment       0x00000030       0x31 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .comment       0x00000030       0x31 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .comment       0x00000030       0x31 src/libraries/Wire/utility/twi.o
+ .comment       0x00000030       0x31 src/libraries/Wire/Wire.o
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
  .comment       0x00000030       0x31 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
@@ -1358,121 +1855,193 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x328
+.debug_aranges  0x00000000      0x8d8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0xb8 Sketch.o
+                0x00000000       0xc0 Sketch.o
  .debug_aranges
-                0x000000b8       0xb8 src/libraries/HX711/HX711.o
+                0x000000c0       0xb8 src/libraries/HX711/HX711.o
  .debug_aranges
-                0x00000170       0x68 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000178      0x160 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
  .debug_aranges
-                0x000001d8       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+                0x000002d8       0xd0 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
  .debug_aranges
-                0x00000208       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+                0x000003a8       0xa0 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
  .debug_aranges
-                0x00000230       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+                0x00000448       0x50 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
  .debug_aranges
-                0x00000278       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00000498       0x78 src/libraries/Wire/utility/twi.o
  .debug_aranges
-                0x000002a8       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000510       0xe8 src/libraries/Wire/Wire.o
  .debug_aranges
-                0x000002e0       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+                0x000005f8       0x68 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x00000308       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+                0x00000660       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_aranges
+                0x00000698       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_aranges
+                0x000006c8       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_aranges
+                0x000006f0       0xf0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_aranges
+                0x000007e0       0x48 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_aranges
+                0x00000828       0x30 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_aranges
+                0x00000858       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_aranges
+                0x00000890       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_aranges
+                0x000008b8       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x553d
+.debug_info     0x00000000    0x152b3
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x792 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_info    0x00000792      0xfcd Sketch.o
- .debug_info    0x0000175f      0xd83 src/libraries/HX711/HX711.o
- .debug_info    0x000024e2     0x1ee5 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x000043c7      0x243 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_info    0x0000460a      0x11c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_info    0x00004726      0x2d7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x000049fd      0x27b C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_info    0x00004c78      0x5e8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x00005260      0x29f C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
- .debug_info    0x000054ff       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00000792     0x31a4 Sketch.o
+ .debug_info    0x00003936      0xd83 src/libraries/HX711/HX711.o
+ .debug_info    0x000046b9     0x193c src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_info    0x00005ff5     0x2872 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_info    0x00008867      0x965 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_info    0x000091cc     0x208e src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_info    0x0000b25a      0x5d9 src/libraries/Wire/utility/twi.o
+ .debug_info    0x0000b833     0x2716 src/libraries/Wire/Wire.o
+ .debug_info    0x0000df49     0x1ee5 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x0000fe2e     0x1aa5 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x000118d3      0x243 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00011b16      0x11c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_info    0x00011c32     0x286a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0001449c      0x2d7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00014773      0x27b C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_info    0x000149ee      0x5e8 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x00014fd6      0x29f C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_info    0x00015275       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
-.debug_abbrev   0x00000000     0x19b5
+.debug_abbrev   0x00000000     0x3acb
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x729 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_abbrev  0x00000729      0x3d4 Sketch.o
- .debug_abbrev  0x00000afd      0x336 src/libraries/HX711/HX711.o
- .debug_abbrev  0x00000e33      0x432 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00001265      0x12d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00001392       0xce C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_abbrev  0x00001460      0x146 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x000015a6      0x17a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_abbrev  0x00001720      0x15a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x0000187a      0x111 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
- .debug_abbrev  0x0000198b       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00000729      0x68e Sketch.o
+ .debug_abbrev  0x00000db7      0x336 src/libraries/HX711/HX711.o
+ .debug_abbrev  0x000010ed      0x3c5 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_abbrev  0x000014b2      0x4ab src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_abbrev  0x0000195d      0x260 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_abbrev  0x00001bbd      0x39e src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_abbrev  0x00001f5b      0x260 src/libraries/Wire/utility/twi.o
+ .debug_abbrev  0x000021bb      0x583 src/libraries/Wire/Wire.o
+ .debug_abbrev  0x0000273e      0x432 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00002b70      0x3a2 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00002f12      0x12d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x0000303f       0xce C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_abbrev  0x0000310d      0x469 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00003576      0x146 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x000036bc      0x17a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_abbrev  0x00003836      0x15a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00003990      0x111 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_abbrev  0x00003aa1       0x2a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
-.debug_line     0x00000000     0x1bb2
+.debug_line     0x00000000     0x4985
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x169 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_line    0x00000169      0x55a Sketch.o
- .debug_line    0x000006c3      0x517 src/libraries/HX711/HX711.o
- .debug_line    0x00000bda      0x449 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x00001023      0x165 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00001188      0x12f C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_line    0x000012b7      0x2ab C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x00001562      0x245 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_line    0x000017a7      0x258 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x000019ff      0x172 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
- .debug_line    0x00001b71       0x41 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00000169      0x75e Sketch.o
+ .debug_line    0x000008c7      0x517 src/libraries/HX711/HX711.o
+ .debug_line    0x00000dde      0x774 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_line    0x00001552      0x75d src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_line    0x00001caf      0x5d5 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_line    0x00002284      0x405 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_line    0x00002689      0x506 src/libraries/Wire/utility/twi.o
+ .debug_line    0x00002b8f      0x5a1 src/libraries/Wire/Wire.o
+ .debug_line    0x00003130      0x449 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00003579      0x257 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x000037d0      0x165 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00003935      0x12f C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_line    0x00003a64      0x626 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x0000408a      0x2ab C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00004335      0x245 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_line    0x0000457a      0x258 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x000047d2      0x172 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_line    0x00004944       0x41 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
-.debug_frame    0x00000000      0x990
+.debug_frame    0x00000000     0x19a8
  *(.debug_frame)
- .debug_frame   0x00000000      0x2f8 Sketch.o
- .debug_frame   0x000002f8      0x29c src/libraries/HX711/HX711.o
- .debug_frame   0x00000594      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x000006a4       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x000006f8       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_frame   0x0000074c       0xc4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00000810       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_frame   0x00000864       0x7c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x000008e0       0x8c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
- .debug_frame   0x0000096c       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00000000      0x334 Sketch.o
+ .debug_frame   0x00000334      0x29c src/libraries/HX711/HX711.o
+ .debug_frame   0x000005d0      0x360 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_frame   0x00000930      0x24c src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_frame   0x00000b7c      0x17c src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_frame   0x00000cf8       0xe0 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_frame   0x00000dd8      0x124 src/libraries/Wire/utility/twi.o
+ .debug_frame   0x00000efc      0x264 src/libraries/Wire/Wire.o
+ .debug_frame   0x00001160      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x00001270       0xc0 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x00001330       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x00001384       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_frame   0x000013d8      0x38c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00001764       0xc4 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00001828       0x54 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_frame   0x0000187c       0x7c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x000018f8       0x8c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_frame   0x00001984       0x24 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
-.debug_str      0x00000000     0x25c0
+.debug_str      0x00000000     0x4842
  *(.debug_str)
  .debug_str     0x00000000      0x296 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
- .debug_str     0x00000296      0x902 Sketch.o
-                                0x994 (size before relaxing)
- .debug_str     0x00000b98      0x379 src/libraries/HX711/HX711.o
+ .debug_str     0x00000296     0x2399 Sketch.o
+                               0x24e8 (size before relaxing)
+ .debug_str     0x0000262f      0x363 src/libraries/HX711/HX711.o
                                 0x662 (size before relaxing)
- .debug_str     0x00000f11     0x1367 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00002992      0xa21 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+                                0xdf4 (size before relaxing)
+ .debug_str     0x000033b3      0x1d4 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+                               0x1e53 (size before relaxing)
+ .debug_str     0x00003587       0x73 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+                                0x726 (size before relaxing)
+ .debug_str     0x000035fa       0xe1 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+                               0x18d0 (size before relaxing)
+ .debug_str     0x000036db      0x29c src/libraries/Wire/utility/twi.o
+                                0x3d2 (size before relaxing)
+ .debug_str     0x00003977      0x4f1 src/libraries/Wire/Wire.o
+                               0x18b0 (size before relaxing)
+ .debug_str     0x00003e68      0x44f C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x166c (size before relaxing)
- .debug_str     0x00002278       0x37 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x000042b7       0x47 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+                               0x13fd (size before relaxing)
+ .debug_str     0x000042fe       0x37 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
                                 0x2d9 (size before relaxing)
- .debug_str     0x000022af       0x55 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_str     0x00004335       0x3a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
                                 0x1ef (size before relaxing)
- .debug_str     0x00002304      0x153 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x0000436f      0x31b C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+                               0x121e (size before relaxing)
+ .debug_str     0x0000468a       0x66 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
                                 0x26f (size before relaxing)
- .debug_str     0x00002457       0x72 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_str     0x000046f0       0x5b C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
                                 0x273 (size before relaxing)
- .debug_str     0x000024c9       0x9d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x0000474b       0x9d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2d4 (size before relaxing)
- .debug_str     0x00002566       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_str     0x000047e8       0x3e C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
                                 0x231 (size before relaxing)
- .debug_str     0x000025a4       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00004826       0x1c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
                                 0x164 (size before relaxing)
 
-.debug_loc      0x00000000     0x2a12
+.debug_loc      0x00000000     0x7b0f
  *(.debug_loc)
- .debug_loc     0x00000000      0xbe4 Sketch.o
- .debug_loc     0x00000be4      0xc50 src/libraries/HX711/HX711.o
- .debug_loc     0x00001834      0x482 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x00001cb6       0x4c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_loc     0x00001d02      0x28d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x00001f8f      0x182 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_loc     0x00002111      0x61a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x0000272b      0x2e7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_loc     0x00000000      0xc48 Sketch.o
+ .debug_loc     0x00000c48      0xc50 src/libraries/HX711/HX711.o
+ .debug_loc     0x00001898      0xc5c src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_loc     0x000024f4      0xd84 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_loc     0x00003278      0x403 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_loc     0x0000367b      0x58b src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_loc     0x00003c06      0x395 src/libraries/Wire/utility/twi.o
+ .debug_loc     0x00003f9b      0xbab src/libraries/Wire/Wire.o
+ .debug_loc     0x00004b46      0x482 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00004fc8      0x18a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00005152       0x4c C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_loc     0x0000519e     0x1c61 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00006dff      0x28d C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000708c      0x182 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_loc     0x0000720e      0x61a C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00007828      0x2e7 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1492,18 +2061,26 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x2b8
+.debug_ranges   0x00000000      0x830
  *(.debug_ranges)
- .debug_ranges  0x00000000       0xc0 Sketch.o
- .debug_ranges  0x000000c0       0xc0 src/libraries/HX711/HX711.o
- .debug_ranges  0x00000180       0x58 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x000001d8       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x000001f8       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
- .debug_ranges  0x00000210       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000248       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_ranges  0x00000268       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x00000290       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
- .debug_ranges  0x000002a8       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000000       0xc8 Sketch.o
+ .debug_ranges  0x000000c8       0xc0 src/libraries/HX711/HX711.o
+ .debug_ranges  0x00000188      0x150 src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o
+ .debug_ranges  0x000002d8       0xc0 src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o
+ .debug_ranges  0x00000398       0xa8 src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o
+ .debug_ranges  0x00000440       0x40 src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o
+ .debug_ranges  0x00000480       0x68 src/libraries/Wire/utility/twi.o
+ .debug_ranges  0x000004e8       0xd8 src/libraries/Wire/Wire.o
+ .debug_ranges  0x000005c0       0x58 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x00000618       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000640       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000660       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(new.o)
+ .debug_ranges  0x00000678      0x110 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000788       0x38 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x000007c0       0x20 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_ranges  0x000007e0       0x28 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000808       0x18 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(wiring_shift.o)
+ .debug_ranges  0x00000820       0x10 C:\Users\RONALD~1\DOCUME~1\DRONET~1\Repos\EMBEDD~1\INCUBA~1\ARDUIN~1\ARDUIN~1\Debug\libArduinoCore.a(hooks.o)
 
 .debug_macro
  *(.debug_macro)

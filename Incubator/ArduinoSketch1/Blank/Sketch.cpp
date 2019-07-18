@@ -4,6 +4,10 @@
 #include <SimpleDHT.h>
 #include <HX711.h>
 
+#define USE_ARDUINO_INTERRUPTS true
+#include <PulseSensorPlayground.h>
+#include <LiquidCrystal_I2C.h>
+
 // HX711 circuit wiring
 const int LOADCELL_DOUT_PIN = 2;
 const int LOADCELL_SCK_PIN = 3;
@@ -413,13 +417,69 @@ float carbondiaoxideRead() {
 }
 
 // Get pulse rate
+const int OUTPUT_TYPE = SERIAL_PLOTTER;
+/*
+   Pinout:
+     PULSE_INPUT = Analog Input. Connected to the pulse sensor
+      purple (signal) wire.
+     PULSE_BLINK = digital Output. Connected to an LED (and 220 ohm resistor)
+      that will flash on each detected pulse.
+     PULSE_FADE = digital Output. PWM pin connected to an LED (and resistor)
+      that will smoothly fade with each pulse.
+      NOTE: PULSE_FADE must be a pin that supports PWM. Do not connect pins that has timer 2 on it
+*/
+const int PULSE_INPUT = A0;
+const int PULSE_BLINK = 13;    // Pin 13 is the on-board LED
+const int PULSE_FADE = 5;
+const int THRESHOLD = 550;   // Adjust this number to avoid noise when idle
+
+//All the PulseSensor Playground functions.
+PulseSensorPlayground pulseSensor;
 
 // Display
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
 	// read without samples.
 	scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
 	Ro.MQ2 = MQCalibration(MQ2_PIN, MQ2_SENSOR);
+
+	// Configure the PulseSensor manager.
+
+	pulseSensor.analogInput(PULSE_INPUT);
+	pulseSensor.blinkOnPulse(PULSE_BLINK);
+	pulseSensor.fadeOnPulse(PULSE_FADE);
+
+	pulseSensor.setSerial(Serial);
+	pulseSensor.setOutputType(OUTPUT_TYPE);
+	pulseSensor.setThreshold(THRESHOLD);
+
+	// Now that everything is ready, start reading the PulseSensor signal.
+	if (!pulseSensor.begin()) {
+		/*
+		   PulseSensor initialization failed.
+		*/
+		for(int ii = 0; ii < 20; ii++) {
+			// Flash the led to show things didn't work.
+			digitalWrite(PULSE_BLINK, LOW);
+			delay(100);
+			digitalWrite(PULSE_BLINK, HIGH);
+			delay(100);
+		}
+
+		digitalWrite(PULSE_BLINK, HIGH);
+	}
+
+	//Initialize the screen and print the first text
+	lcd.init();
+	lcd.backlight();
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("UG BIOMEDICAL EN");
+	delay(3000);
+	lcd.clear();
+	lcd.setCursor(0, 0);
 }
 
 void loop() {

@@ -36,18 +36,37 @@ SUBDIRS :=  \
 ../include/ \
 ../include/libraries/ \
 ../include/libraries/HX711 \
+../include/libraries/LiquidCrystal_I2C/ \
+../include/libraries/PulseSensor_Playground/ \
+../include/libraries/PulseSensor_Playground/src/ \
+../include/libraries/PulseSensor_Playground/src/utility/ \
 ../include/libraries/SimpleDHT/ \
+../include/libraries/Wire/ \
+../include/libraries/Wire/utility/ \
 ../src/ \
 ../src/libraries/ \
 ../src/libraries/HX711 \
-../src/libraries/SimpleDHT/
+../src/libraries/LiquidCrystal_I2C/ \
+../src/libraries/PulseSensor_Playground/ \
+../src/libraries/PulseSensor_Playground/src/ \
+../src/libraries/PulseSensor_Playground/src/utility/ \
+../src/libraries/SimpleDHT/ \
+../src/libraries/Wire/ \
+../src/libraries/Wire/utility/
 
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
 ../Sketch.cpp \
 ../src/libraries/HX711/HX711.cpp \
-../src/libraries/SimpleDHT/SimpleDHT.cpp
+../src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp \
+../src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.cpp \
+../src/libraries/PulseSensor_Playground/src/utility/PulseSensor.cpp \
+../src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.cpp \
+../src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.cpp \
+../src/libraries/SimpleDHT/SimpleDHT.cpp \
+../src/libraries/Wire/utility/twi.c \
+../src/libraries/Wire/Wire.cpp
 
 
 PREPROCESSING_SRCS += 
@@ -59,22 +78,50 @@ ASM_SRCS +=
 OBJS +=  \
 Sketch.o \
 src/libraries/HX711/HX711.o \
-src/libraries/SimpleDHT/SimpleDHT.o
+src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o \
+src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o \
+src/libraries/SimpleDHT/SimpleDHT.o \
+src/libraries/Wire/utility/twi.o \
+src/libraries/Wire/Wire.o
 
 OBJS_AS_ARGS +=  \
 Sketch.o \
 src/libraries/HX711/HX711.o \
-src/libraries/SimpleDHT/SimpleDHT.o
+src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.o \
+src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensor.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.o \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.o \
+src/libraries/SimpleDHT/SimpleDHT.o \
+src/libraries/Wire/utility/twi.o \
+src/libraries/Wire/Wire.o
 
 C_DEPS +=  \
 Sketch.d \
 src/libraries/HX711/HX711.d \
-src/libraries/SimpleDHT/SimpleDHT.d
+src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.d \
+src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensor.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.d \
+src/libraries/SimpleDHT/SimpleDHT.d \
+src/libraries/Wire/utility/twi.d \
+src/libraries/Wire/Wire.d
 
 C_DEPS_AS_ARGS +=  \
 Sketch.d \
 src/libraries/HX711/HX711.d \
-src/libraries/SimpleDHT/SimpleDHT.d
+src/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.d \
+src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensor.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorSerialOutput.d \
+src/libraries/PulseSensor_Playground/src/utility/PulseSensorTimingStatistics.d \
+src/libraries/SimpleDHT/SimpleDHT.d \
+src/libraries/Wire/utility/twi.d \
+src/libraries/Wire/Wire.d
 
 OUTPUT_FILE_PATH +=Blank.elf
 
@@ -98,24 +145,73 @@ LINKER_SCRIPT_DEP+=
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ./%.o: .././%.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 src/libraries/HX711/%.o: ../src/libraries/HX711/%.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/LiquidCrystal_I2C/%.o: ../src/libraries/LiquidCrystal_I2C/%.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/PulseSensor_Playground/src/%.o: ../src/libraries/PulseSensor_Playground/src/%.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/PulseSensor_Playground/src/utility/%.o: ../src/libraries/PulseSensor_Playground/src/utility/%.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
 src/libraries/SimpleDHT/%.o: ../src/libraries/SimpleDHT/%.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
-	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/Wire/utility/%.o: ../src/libraries/Wire/utility/%.c
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu99 -std=gnu11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+src/libraries/Wire/%.o: ../src/libraries/Wire/%.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\""  -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\include" -I"..\include\libraries\SimpleDHT" -I"../include/libraries/HX711" -I"..\include\libraries\PulseSensor_Playground\src" -I"..\include\libraries\PulseSensor_Playground\src\utility" -I"..\include\libraries\LiquidCrystal_I2C" -I"..\include\libraries\Wire" -I"..\include\libraries\Wire\utility"  -Os -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -w -mmcu=atmega1284p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\gcc\dev\atmega1284p" -c -std=gnu++11 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 

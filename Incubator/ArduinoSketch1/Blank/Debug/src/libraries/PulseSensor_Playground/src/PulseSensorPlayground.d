@@ -1,4 +1,7 @@
-Sketch.d Sketch.o: .././Sketch.cpp \
+src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.d \
+ src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.o: \
+ ../src/libraries/PulseSensor_Playground/src/PulseSensorPlayground.cpp \
+ ..\include\libraries\PulseSensor_Playground\src/PulseSensorPlayground.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
@@ -34,17 +37,13 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
- ..\include\libraries\SimpleDHT/SimpleDHT.h \
- ../include/libraries/HX711/HX711.h \
- ..\include\libraries\PulseSensor_Playground\src/PulseSensorPlayground.h \
  ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensor.h \
  ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensorSerialOutput.h \
  ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensor.h \
  ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensorTimingStatistics.h \
- ..\include\libraries\PulseSensor_Playground\src/utility/Interrupts.h \
- ..\include\libraries\LiquidCrystal_I2C/LiquidCrystal_I2C.h \
- ..\\..\ArduinoCore\include\core/Print.h ..\include\libraries\Wire/Wire.h \
- ..\\..\ArduinoCore\include\core/Stream.h
+ ..\include\libraries\PulseSensor_Playground\src/utility/Interrupts.h
+
+..\include\libraries\PulseSensor_Playground\src/PulseSensorPlayground.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -116,12 +115,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
-..\include\libraries\SimpleDHT/SimpleDHT.h:
-
-../include/libraries/HX711/HX711.h:
-
-..\include\libraries\PulseSensor_Playground\src/PulseSensorPlayground.h:
-
 ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensor.h:
 
 ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensorSerialOutput.h:
@@ -131,11 +124,3 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 ..\include\libraries\PulseSensor_Playground\src/utility/PulseSensorTimingStatistics.h:
 
 ..\include\libraries\PulseSensor_Playground\src/utility/Interrupts.h:
-
-..\include\libraries\LiquidCrystal_I2C/LiquidCrystal_I2C.h:
-
-..\\..\ArduinoCore\include\core/Print.h:
-
-..\include\libraries\Wire/Wire.h:
-
-..\\..\ArduinoCore\include\core/Stream.h:
