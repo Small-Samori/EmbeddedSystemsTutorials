@@ -12,11 +12,10 @@
 const int LOADCELL_DOUT_PIN = 2;
 const int LOADCELL_SCK_PIN = 3;
 
-// for DHT11,
-//      VCC: 5V or 3V
-//      GND: GND
-//      DATA: 2
-int pinDHT11 = 2;
+const int DHT11Pin = 2;
+const int LM35Pin = 0;
+const int MQ131Pin = 0;
+const int MQ135Pin = 0;
 
 SimpleDHT11 myDHT;
 HX711 scale;
@@ -155,16 +154,16 @@ float readTemperature(byte lm35pin) {
 }
 
 // Read temperature/humidity from sensor
-float readTemptratureHumidity() {
+bool readTemptratureHumidity() {
 	int err = SimpleDHTErrSuccess;
-	if ((err = myDHT.read(pinDHT11, &temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
+	if ((err = myDHT.read(DHT11Pin, &temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
 		delay(1000);
-		return -1;
+		return false;
 	}
 
 // DHT11 sampling rate is 1HZ.
 	delay(1500);
-	return 1;
+	return true;
 }
 
 // Control fan speed
@@ -489,25 +488,54 @@ uint16_t pulse_t = 0;
 uint16_t weight_t = 0;
 uint16_t oxygen_t = 0;
 uint16_t carbondiaoxide_t = 0;
+uint16_t display_t = 0;
+uint16_t alarm_t = 0;
+
+uint8_t fanspeed_v = 0;
+uint8_t tempelement_v  = 0;
+uint8_t pulse_v = 0;
+uint8_t weight_v = 0;
+uint8_t oxygen_v = 0;
+uint8_t co2_v = 0;
+uint8_t display_counter = 0;
+
+char buffer[16];
+
+bool alarm = false;
 
 void loop() {
 	if(millis() - motor_t > 1000) {
 		// Place your code here
-
+		controlFanSpeed(fanspeed_v);
 		// End you code here
 		motor_t = millis();
 	}
 
 	if(millis() - temperatureelement_t > 1000) {
 		// Place your code here
-
+		if(readTemperature(LM35Pin) > 35) {
+			controlHeaterElement(0);
+		} else {
+			tempelement_v = tempelement_v - 35;
+			tempelement_v *= 100;
+			tempelement_v /= 35;
+			controlHeaterElement(tempelement_v);
+		}
 		// End you code here
 		temperatureelement_t = millis();
 	}
 
 	if(millis() - temphumidity_t > 1000) {
 		// Place your code here
+		if(readTemptratureHumidity()) {
+			if(temperature < 37) {
+				fanspeed_v = (37 - temperature);
+				fanspeed_v *= 100;
+				fanspeed_v /= 37;
 
+				fanspeed_v = fanspeed_v > 10 ? fanspeed_v : 0;
+			}
+		}
 		// End you code here
 		temphumidity_t = millis();
 	}
@@ -521,29 +549,101 @@ void loop() {
 
 	if(millis() - pulse_t > 1000) {
 		// Place your code here
-
+		pulse_v = pulseSensor.getBeatsPerMinute();
+		if(pulse_v > 100) {
+			alarm = true;
+		} else {
+			alarm = false;
+		}
 		// End you code here
 		pulse_t = millis();
 	}
 
 	if(millis() - weight_t > 1000) {
 		// Place your code here
-
+		weight_v = scale.get_scale();
 		// End you code here
 		weight_t = millis();
 	}
 
 	if(millis() - oxygen_t > 1000) {
 		// Place your code here
-
+		oxygen_v = oxygenRead();
+		if(oxygen_v > 21) {
+			alarm = true;
+		} else {
+			alarm = false;
+		}
 		// End you code here
 		oxygen_t = millis();
 	}
 
 	if(millis() - carbondiaoxide_t > 1000) {
 		// Place your code here
-
+		co2_v = carbondiaoxideRead();
+		if(co2_v > 21) {
+			alarm = true;
+		} else {
+			alarm = false;
+		}
 		// End you code here
 		carbondiaoxide_t = millis();
+	}
+
+	if(millis() - alarm_t > 1000 && alarm == true) {
+		// Toggle Alarm
+
+
+		alarm_t = millis();
+	}
+
+	if(millis() - display_t > 1000) {
+		display_counter = display_counter > 2 ? 0 : display_counter;
+		lcd.clear();
+
+		switch(display_counter) {
+			case 0:
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, "Heart Rate: %03d", pulse_v);
+				lcd.setCursor(0,0);
+				lcd.print(buffer);
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, "Weight: %03d", weight_v);
+				lcd.setCursor(0,1);
+				lcd.print(buffer);
+
+				display_counter++;
+				break;
+
+			case 1:
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, " %02d/%02d/%02d %02d:%02d");
+				lcd.setCursor(0,0);
+				lcd.print(buffer);
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, " %02d/%02d/%02d %02d:%02d");
+				lcd.setCursor(0,1);
+				lcd.print(buffer);
+
+				display_counter++;
+				break;
+
+			case 2:
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, " %02d/%02d/%02d %02d:%02d");
+				lcd.setCursor(0,0);
+				lcd.print(buffer);
+				memset(buffer, 0x00, sizeof(buffer));
+				sprintf(buffer, " %02d/%02d/%02d %02d:%02d");
+				lcd.setCursor(0,1);
+				lcd.print(buffer);
+
+				display_counter++;
+				break;
+
+			default:
+				break;
+		}
+		display_t = millis();
 	}
 }

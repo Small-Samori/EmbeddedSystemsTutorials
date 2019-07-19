@@ -490,60 +490,48 @@ uint16_t weight_t = 0;
 uint16_t oxygen_t = 0;
 uint16_t carbondiaoxide_t = 0;
 
+const byte T3_Pin = 0;
+
 void loop() {
-	if(millis() - motor_t > 1000) {
-		// Place your code here
+	float T3 = readTemperature(T3_Pin);
 
-		// End you code here
-		motor_t = millis();
+	if(T3 < 36.5) {
+		// Regulate the Heater
+
+		// Regulate the Fan
 	}
 
-	if(millis() - temperatureelement_t > 1000) {
-		// Place your code here
+	if(T3 < 36.5 && T3 > 34.5) {
+		// Heater ON
 
-		// End you code here
-		temperatureelement_t = millis();
+		// Regulate Fan
 	}
 
-	if(millis() - temphumidity_t > 1000) {
-		// Place your code here
+	if(T3 < 34.5) {
+		// Heater ON
 
-		// End you code here
-		temphumidity_t = millis();
+		// Fan ON
+
+		// Alarm ON
 	}
 
-	if(millis() -  light_t > 1000) {
-		// Place your code here
+	if(T3 > 36.5 && T3 < 37.2) {
+		// Heater OFF
 
-		// End you code here
-		light_t = millis();
+		// Regulate Fan to Min
 	}
 
-	if(millis() - pulse_t > 1000) {
-		// Place your code here
+	if(T3 > 37.2 && T3 < 38) {
+		// Heater OFF
 
-		// End you code here
-		pulse_t = millis();
+		// Regulate Fan
 	}
 
-	if(millis() - weight_t > 1000) {
-		// Place your code here
+	if(T3 >= 38) {
+		// Heater OFF
 
-		// End you code here
-		weight_t = millis();
-	}
+		// Fan OFF
 
-	if(millis() - oxygen_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		oxygen_t = millis();
-	}
-
-	if(millis() - carbondiaoxide_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		carbondiaoxide_t = millis();
+		// Alarm ON
 	}
 }
