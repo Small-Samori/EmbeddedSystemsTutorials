@@ -597,7 +597,7 @@ void loop() {
 		alarm_t = millis();
 	}
 
-	if(millis() - display_t > 1000) {
+	if(millis() - display_t > 5000) {
 		display_counter = display_counter > 2 ? 0 : display_counter;
 		lcd.clear();
 

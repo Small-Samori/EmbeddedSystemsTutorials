@@ -155,16 +155,16 @@ float readTemperature(byte lm35pin) {
 }
 
 // Read temperature/humidity from sensor
-float readTemptratureHumidity() {
+bool readTemptratureHumidity() {
 	int err = SimpleDHTErrSuccess;
 	if ((err = myDHT.read(pinDHT11, &temperature, &humidity, NULL)) != SimpleDHTErrSuccess) {
 		delay(1000);
-		return -1;
+		return false;
 	}
 
 // DHT11 sampling rate is 1HZ.
 	delay(1500);
-	return 1;
+	return true;
 }
 
 // Control fan speed
@@ -490,60 +490,42 @@ uint16_t weight_t = 0;
 uint16_t oxygen_t = 0;
 uint16_t carbondiaoxide_t = 0;
 
+const byte T1_Pin = 0;
+const byte T3_Pin = 0;
+
+const uint8_t x = 0;
+
 void loop() {
-	if(millis() - motor_t > 1000) {
-		// Place your code here
+	float T1 = readTemperature(T1_Pin);
+	readTemptratureHumidity();
+	float T2 = temperature;
+	float T3 = readTemperature(T3_Pin);
 
-		// End you code here
-		motor_t = millis();
-	}
+	if(T2 < 39) {
+		if(T3 < 36.5) {
+			// Heater ON
 
-	if(millis() - temperatureelement_t > 1000) {
-		// Place your code here
+			// Fan ON
+		} else if(T3 > 37.5) {
+			// Heater OFF
 
-		// End you code here
-		temperatureelement_t = millis();
-	}
+			// Fan OFF
+		}
 
-	if(millis() - temphumidity_t > 1000) {
-		// Place your code here
+		if(T1 < x) {
+			// Heater OFF
 
-		// End you code here
-		temphumidity_t = millis();
-	}
+			// Fan ON
+		} else if(T3 < 37.5 && T2 > 36.5) {
+			// Heater OFF
 
-	if(millis() -  light_t > 1000) {
-		// Place your code here
+			// Fan ON
+		}
+	} else {
+		// Heater OFF
 
-		// End you code here
-		light_t = millis();
-	}
+		// Fan ON
 
-	if(millis() - pulse_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		pulse_t = millis();
-	}
-
-	if(millis() - weight_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		weight_t = millis();
-	}
-
-	if(millis() - oxygen_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		oxygen_t = millis();
-	}
-
-	if(millis() - carbondiaoxide_t > 1000) {
-		// Place your code here
-
-		// End you code here
-		carbondiaoxide_t = millis();
+		// Alarm ON
 	}
 }
